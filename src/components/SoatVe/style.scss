@@ -1,0 +1,76 @@
+.soatve {
+	display: flex;
+	justify-content: space-between;
+	.content{
+		flex: 0 0 65%;
+	}
+	.soatve__filter{
+		flex: 0 0 30%;
+		background-color: #fff;
+    margin-top: 20px;
+    margin-right: 32px;
+    border-radius: 24px;
+    margin-bottom: 32px;
+    padding: 20px;
+	}
+  .filter__icon {
+    .soatve {
+      color: #fff;
+      background-color: #ff993c;
+    }
+  }
+  .description {
+    color: #a5a8b1;
+    font-style: italic;
+  }
+
+.radio-button{
+  display: block;
+  font-size: 16px;
+}
+.radio-wrapper{
+  display: flex;
+  margin-bottom: 10px;
+  p{
+    margin-top: 2px;
+    margin-right: 10px;
+    font-size: 16px;
+  }
+  .locve-title{
+    font-size: 16px;
+    font-weight: 600;
+  }
+  div{
+    flex: 0 0 50%;
+  }
+    .date-picker{
+      position: unset;
+      margin: unset;
+    }
+}
+.button_loc{
+  border: 1px solid #FF993C;
+  height: unset;
+  padding: 10px 40px;
+  margin: 0 auto;
+    &:hover{
+    border: 1px solid #FF993C;
+    span{
+      color: #FF993C;
+    }
+  }
+  span{
+    font-size: 18px;
+    font-weight: 700;
+    color: #FF993C;
+  }
+}
+.filter-button{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.title_1{
+  font-size: 24px;
+}
+}

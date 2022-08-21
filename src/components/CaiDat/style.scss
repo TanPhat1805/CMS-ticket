@@ -1,0 +1,56 @@
+.themgoive {
+    background: #FF993C !important;
+    color: #fff !important;
+}
+.modal_capnhat{
+    &-info{
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+
+        .info__con{
+            p{
+                &:last-child{
+                    padding: 10px 20px;
+                    border: 1px solid #A5A8B1;
+                    border-radius: 8px;
+                }
+            }
+            &:first-child{
+                flex: 0 0 30%;
+            }
+            &:last-child{
+                flex: 0 0 60%;
+                margin-left: 30px;
+            }
+        }
+    }
+    .date-picker{
+        margin-right: 10px !important;
+    }
+    .ant-picker {
+        border-radius: 5px;
+    }
+
+    .capnhat__group{
+        display: flex;
+        align-items: center;
+        margin-bottom: 10px;
+        .input__capnhat{
+            width: 150px;
+            border-radius: 8px;
+            margin-right: 5px;
+            margin-left: 5px;
+        }
+        .last{
+            width: 75px;
+        }
+    }
+}
+
+.ant-modal {
+    width: 758px !important;
+}
+.capnhat{
+    cursor: pointer;
+}
